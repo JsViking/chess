@@ -19,6 +19,12 @@
 	flex-wrap: wrap;
 }
 
+.cell img {
+	position: relative;
+	width: 48px;
+	height: 48px;
+}
+
 .cell {
 	position: relative;
 	display: flex;

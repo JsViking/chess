@@ -7,7 +7,7 @@ interface ICell {
 
 const CellComponent = ({ cell }: ICell) => {
   return <div className={`cell ${cell.color}`}>
-    {cell.figure}
+    {cell.figure?.logo && <img src={cell.figure.logo} />}
   </div>
 }
 
