@@ -32,6 +32,7 @@
 	align-items: center;
 	width: 64px;
 	height: 64px;
+	cursor: pointer;
 }
 
 .black {
@@ -39,5 +40,15 @@
 }
 
 .white {
-	background-color: coral;
+	background-color: antiquewhite;
+}
+
+.selected {
+	background-color: red;
+}
+.avaliable {
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	background-color: rgb(3, 70, 3);
 }
