@@ -33,7 +33,7 @@ export class Figure {
     if (target.figure?.name === FigureName.KING) return false
     return true
   }
-  moveFigure(target: Cell): boolean {
-    return true
+  moveFigure(target: Cell) {
+    
   }
 }
